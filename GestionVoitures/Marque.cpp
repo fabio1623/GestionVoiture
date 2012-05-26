@@ -1,5 +1,5 @@
 //
-//  MethodesAjouter.cpp
+//  Marque.cpp
 //  GestionVoitures
 //
 //  Created by Fabio SARMENTO PEDRO on 26/05/12.
@@ -7,9 +7,3 @@
 //
 
 #include <iostream>
-#include "Voiture.h"
-
-Voiture::ajouterVoiture()
-{
-    
-}

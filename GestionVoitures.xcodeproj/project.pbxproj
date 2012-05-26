@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		A01B704315705ED000B00BC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B704215705ED000B00BC2 /* main.cpp */; };
 		A01B704515705ED000B00BC2 /* GestionVoitures.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A01B704415705ED000B00BC2 /* GestionVoitures.1 */; };
-		A01B70641570770A00B00BC2 /* MethodesAjouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B70631570770A00B00BC2 /* MethodesAjouter.cpp */; };
-		A01B70661570775C00B00BC2 /* MethodesSupprimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B70651570775C00B00BC2 /* MethodesSupprimer.cpp */; };
-		A01B70681570778F00B00BC2 /* MethodesAfficher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B70671570778F00B00BC2 /* MethodesAfficher.cpp */; };
-		A01B706A157077D800B00BC2 /* MethodesRechercher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B7069157077D800B00BC2 /* MethodesRechercher.cpp */; };
+		A0F075FA1570E7C800DEC475 /* Voiture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075F91570E7C800DEC475 /* Voiture.cpp */; };
+		A0F075FD1570E83500DEC475 /* Marque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075FC1570E83500DEC475 /* Marque.cpp */; };
+		A0F075FF1570E86500DEC475 /* Confort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075FE1570E86500DEC475 /* Confort.cpp */; };
+		A0F076011570E87000DEC475 /* Moteur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F076001570E87000DEC475 /* Moteur.cpp */; };
+		A0F076031570E87B00DEC475 /* Categorie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F076021570E87B00DEC475 /* Categorie.cpp */; };
+		A0F076051570E88D00DEC475 /* Cabriolet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F076041570E88D00DEC475 /* Cabriolet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,10 +42,12 @@
 		A01B705C1570683D00B00BC2 /* Marque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marque.h; sourceTree = "<group>"; };
 		A01B705D1570686C00B00BC2 /* Moteur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moteur.h; sourceTree = "<group>"; };
 		A01B705E1570698D00B00BC2 /* Confort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Confort.h; sourceTree = "<group>"; };
-		A01B70631570770A00B00BC2 /* MethodesAjouter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MethodesAjouter.cpp; sourceTree = "<group>"; };
-		A01B70651570775C00B00BC2 /* MethodesSupprimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MethodesSupprimer.cpp; sourceTree = "<group>"; };
-		A01B70671570778F00B00BC2 /* MethodesAfficher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MethodesAfficher.cpp; sourceTree = "<group>"; };
-		A01B7069157077D800B00BC2 /* MethodesRechercher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MethodesRechercher.cpp; sourceTree = "<group>"; };
+		A0F075F91570E7C800DEC475 /* Voiture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Voiture.cpp; sourceTree = "<group>"; };
+		A0F075FC1570E83500DEC475 /* Marque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Marque.cpp; sourceTree = "<group>"; };
+		A0F075FE1570E86500DEC475 /* Confort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Confort.cpp; sourceTree = "<group>"; };
+		A0F076001570E87000DEC475 /* Moteur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Moteur.cpp; sourceTree = "<group>"; };
+		A0F076021570E87B00DEC475 /* Categorie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Categorie.cpp; sourceTree = "<group>"; };
+		A0F076041570E88D00DEC475 /* Cabriolet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cabriolet.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 		A01B70571570673200B00BC2 /* Methodes */ = {
 			isa = PBXGroup;
 			children = (
-				A01B705F15706C7F00B00BC2 /* Ajouter */,
-				A01B706115706C9600B00BC2 /* Supprimer */,
-				A01B706015706C8F00B00BC2 /* Afficher */,
-				A01B706215706CBF00B00BC2 /* Rechercher */,
+				A0F075F91570E7C800DEC475 /* Voiture.cpp */,
+				A0F075FC1570E83500DEC475 /* Marque.cpp */,
+				A0F075FE1570E86500DEC475 /* Confort.cpp */,
+				A0F076001570E87000DEC475 /* Moteur.cpp */,
+				A0F076021570E87B00DEC475 /* Categorie.cpp */,
+				A0F076041570E88D00DEC475 /* Cabriolet.cpp */,
 			);
 			name = Methodes;
 			sourceTree = "<group>";
@@ -116,38 +122,6 @@
 				A01B7056157066F700B00BC2 /* Categories */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		A01B705F15706C7F00B00BC2 /* Ajouter */ = {
-			isa = PBXGroup;
-			children = (
-				A01B70631570770A00B00BC2 /* MethodesAjouter.cpp */,
-			);
-			name = Ajouter;
-			sourceTree = "<group>";
-		};
-		A01B706015706C8F00B00BC2 /* Afficher */ = {
-			isa = PBXGroup;
-			children = (
-				A01B70671570778F00B00BC2 /* MethodesAfficher.cpp */,
-			);
-			name = Afficher;
-			sourceTree = "<group>";
-		};
-		A01B706115706C9600B00BC2 /* Supprimer */ = {
-			isa = PBXGroup;
-			children = (
-				A01B70651570775C00B00BC2 /* MethodesSupprimer.cpp */,
-			);
-			name = Supprimer;
-			sourceTree = "<group>";
-		};
-		A01B706215706CBF00B00BC2 /* Rechercher */ = {
-			isa = PBXGroup;
-			children = (
-				A01B7069157077D800B00BC2 /* MethodesRechercher.cpp */,
-			);
-			name = Rechercher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01B704315705ED000B00BC2 /* main.cpp in Sources */,
-				A01B70641570770A00B00BC2 /* MethodesAjouter.cpp in Sources */,
-				A01B70661570775C00B00BC2 /* MethodesSupprimer.cpp in Sources */,
-				A01B70681570778F00B00BC2 /* MethodesAfficher.cpp in Sources */,
-				A01B706A157077D800B00BC2 /* MethodesRechercher.cpp in Sources */,
+				A0F075FA1570E7C800DEC475 /* Voiture.cpp in Sources */,
+				A0F075FD1570E83500DEC475 /* Marque.cpp in Sources */,
+				A0F075FF1570E86500DEC475 /* Confort.cpp in Sources */,
+				A0F076011570E87000DEC475 /* Moteur.cpp in Sources */,
+				A0F076031570E87B00DEC475 /* Categorie.cpp in Sources */,
+				A0F076051570E88D00DEC475 /* Cabriolet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +267,7 @@
 				A01B704A15705ED000B00BC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
