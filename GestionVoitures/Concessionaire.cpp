@@ -62,7 +62,7 @@ bool	Concessionaire::supprimerVehicule(int id)
 int	Concessionaire::rechercherVehicule(Vehicule &v)
 {
   unsigned int	i;
-  unsigned int	nVehicule = this->vehicules.size();
+    vector<Vehicule>::size_type	nVehicule = this->vehicules.size();
 
   for (i=0;i<nVehicule;i++)
   {
