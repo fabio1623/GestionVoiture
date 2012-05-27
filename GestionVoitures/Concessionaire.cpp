@@ -51,21 +51,23 @@ bool	Concessionaire::ajouterVehicule(Vehicule &v)
 
 bool	Concessionaire::supprimerVehicule(Vehicule &v)
 {
-
+  return (FALSE);
 }
 
 bool	Concessionaire::supprimerVehicule(int id)
 {
-
+  return (FALSE);
 }
 
 int	Concessionaire::rechercherVehicule(Vehicule &v)
 {
   unsigned int	i;
-  unsigned int	nVehicule = this->vehucules.size();
+  unsigned int	nVehicule = this->vehicules.size();
 
   for (i=0;i<nVehicule;i++)
   {
-
+    if (this->vehicules.at(i) == v)
+      return (i);
   }
+  return (-1);
 }
