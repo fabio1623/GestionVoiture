@@ -28,8 +28,17 @@ Vehicule::~Vehicule()
     
 }
 
-
-
-
-
-
+bool	Vehicule::operator==(Vehicule const& other)
+{
+	if (this->marque == other.marque &&
+		this->categorie == other.categorie &&
+		this->confort == other.confort &&
+		this->moteur == other.moteur &&
+		this->nom == other.nom &&
+		this->poids == other.poids &&
+		this->vitesseMaximale == other.vitesseMaximale &&
+		this->acceleration == other.acceleration &&
+		this->prix == other.prix)
+		return (true);
+	return (false);
+}

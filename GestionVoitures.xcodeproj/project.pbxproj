@@ -11,7 +11,6 @@
 		0C29D4141570EA820078813A /* Berline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C29D4131570EA820078813A /* Berline.cpp */; };
 		0C29D4181570F9B80078813A /* Concessionaire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C29D4171570F9B80078813A /* Concessionaire.cpp */; };
 		A01B704315705ED000B00BC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A01B704215705ED000B00BC2 /* main.cpp */; };
-		A01B704515705ED000B00BC2 /* GestionVoitures.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A01B704415705ED000B00BC2 /* GestionVoitures.1 */; };
 		A0F075FA1570E7C800DEC475 /* Vehicule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075F91570E7C800DEC475 /* Vehicule.cpp */; };
 		A0F075FD1570E83500DEC475 /* Marque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075FC1570E83500DEC475 /* Marque.cpp */; };
 		A0F075FF1570E86500DEC475 /* Confort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F075FE1570E86500DEC475 /* Confort.cpp */; };
@@ -27,7 +26,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				A01B704515705ED000B00BC2 /* GestionVoitures.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -37,9 +35,9 @@
 		0C29D4111570EA760078813A /* Coupe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coupe.cpp; sourceTree = "<group>"; };
 		0C29D4131570EA820078813A /* Berline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Berline.cpp; sourceTree = "<group>"; };
 		0C29D4171570F9B80078813A /* Concessionaire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Concessionaire.cpp; sourceTree = "<group>"; };
+		0CFF9E6915728DA600813DBF /* Concessionaire.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Concessionaire.hpp; sourceTree = "<group>"; };
 		A01B703E15705ED000B00BC2 /* GestionVoitures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GestionVoitures; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B704215705ED000B00BC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A01B704415705ED000B00BC2 /* GestionVoitures.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GestionVoitures.1; sourceTree = "<group>"; };
 		A01B70501570607100B00BC2 /* Vehicule.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vehicule.hpp; sourceTree = "<group>"; };
 		A01B7051157060A400B00BC2 /* Categorie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Categorie.hpp; sourceTree = "<group>"; };
 		A01B70531570661600B00BC2 /* Berline.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Berline.hpp; sourceTree = "<group>"; };
@@ -97,9 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				A01B704215705ED000B00BC2 /* main.cpp */,
-				A01B70571570673200B00BC2 /* Methodes */,
 				A01B70591570677C00B00BC2 /* Classes */,
-				A01B704415705ED000B00BC2 /* GestionVoitures.1 */,
+				A01B70571570673200B00BC2 /* Methodes */,
 			);
 			path = GestionVoitures;
 			sourceTree = "<group>";
@@ -131,6 +128,7 @@
 		A01B70591570677C00B00BC2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0CFF9E6915728DA600813DBF /* Concessionaire.hpp */,
 				A01B70501570607100B00BC2 /* Vehicule.hpp */,
 				A01B705E1570698D00B00BC2 /* Confort.hpp */,
 				A01B705C1570683D00B00BC2 /* Marque.hpp */,

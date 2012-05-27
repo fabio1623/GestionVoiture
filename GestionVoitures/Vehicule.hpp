@@ -11,10 +11,10 @@
 
 #include <iostream>
 #include <string>
-#include "Categorie.h"
-#include "Marque.h"
-#include "Moteur.h"
-#include "Confort.h"
+#include "Categorie.hpp"
+#include "Marque.hpp"
+#include "Moteur.hpp"
+#include "Confort.hpp"
 
 using namespace std;
 
@@ -39,4 +39,5 @@ class Vehicule
     
     Vehicule(Marque marque, Categorie categorie, Confort confort, Moteur moteur, string nom, int poids, int vitesseMaximale, int acceleration, int prix);
     ~Vehicule();
+	bool	operator==(Vehicule const& other);
 };

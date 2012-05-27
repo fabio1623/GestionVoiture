@@ -15,23 +15,23 @@
 
 Class Concessionaire
 {
- private:
-  string		nom;
-  string		adresse;
-  vector<Vehicule>	vehicules;
+	private:
+	string		nom;
+	string		adresse;
+	vector<Vehicule>	vehicules;
 
- public:
-  Concessionaire(string nom, string adresse);
-  ~Concessionaire();
-  string		getNom(void);
-  void			setNom(string newNom);
-  string		getAdresse(void);
-  void			setAdresse(string newAdresse);
-  vector<Vehicule>	&getVehicules(void);
-  bool			ajouterVehicule(Vehicule &v);
-  bool			supprimerVehicule(Vehicule &v);
-  bool			supprimerVehicule(int id);
-  int			rechercherVehicule(Vehicule &v);
+	public:
+	Concessionaire(string nom, string adresse);
+	~Concessionaire();
+	string				getNom(void);
+	void				setNom(string newNom);
+	string				getAdresse(void);
+	void				setAdresse(string newAdresse);
+	vector<Vehicule>	&getVehicules(void);
+	bool				ajouterVehicule(Vehicule &v);
+	bool				supprimerVehicule(Vehicule &v);
+	bool				supprimerVehicule(int id);
+	int					rechercherVehicule(Vehicule &v);
 };
 
 #endif

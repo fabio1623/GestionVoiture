@@ -8,66 +8,68 @@
 
 #include "Concessionaire.hpp"
 
-Concessionaire::Concessionaire(string nom, string adresse)
+void	Concessionaire::Concessionaire(string nom, string adresse)
 {
-  this->nom = nom;
-  this->adresse = adresse;
+	this->nom = nom;
+	this->adresse = adresse;
 }
 
-~Concessionaire::Concessionaire()
+void	~Concessionaire::Concessionaire()
 {
 }
 
 string	Concessionaire::getNom(void)
 {
-  return (this->nom);
+	return (this->nom);
 }
 
 void	Concessionaire::setNom(string newNom)
 {
-  this->nom = newNom;
+	this->nom = newNom;
 }
 
 string	Concessionaire::getAdresse(void)
 {
-  return (this->adresse);
+	return (this->adresse);
 }
 
-void	Concessionaire::setAdresse(string newAdresse);
-
-vector<Vehicule>	&getVehicules(void)
+void	Concessionaire::setAdresse(string newAdresse)
 {
-  return (this->vehicules);
+}
+
+vector<Vehicule>	&Concessionaire::getVehicules(void)
+{
+	return (this->vehicules);
 }
 
 bool	Concessionaire::ajouterVehicule(Vehicule &v)
 {
-  if (this->rechercherVehicule(v) != -1) // Existe
-    return (FALSE);
+	if (this->rechercherVehicule(v) != -1) // Existe
+		return (FALSE);
 
-  this->vehicules.push_back(v);
-  return (TRUE);
+	this->vehicules.push_back(v);
+	return (TRUE);
 }
 
 bool	Concessionaire::supprimerVehicule(Vehicule &v)
 {
-  return (FALSE);
+	return (FALSE);
 }
 
 bool	Concessionaire::supprimerVehicule(int id)
 {
-  return (FALSE);
+	return (FALSE);
 }
 
 int	Concessionaire::rechercherVehicule(Vehicule &v)
 {
-  unsigned int	i;
-    vector<Vehicule>::size_type	nVehicule = this->vehicules.size();
+	unsigned int	i;
+	vector<Vehicule>::size_type	nVehicule = this->vehicules.size();
 
-  for (i=0;i<nVehicule;i++)
-  {
-    if (this->vehicules.at(i) == v)
-      return (i);
-  }
-  return (-1);
+	for (i=0;i<nVehicule;i++)
+	{
+		if (this->vehicules.at(i) == v)
+			return (i);
+	}
+	return (-1);
 }
