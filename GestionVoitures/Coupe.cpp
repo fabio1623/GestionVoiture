@@ -1,5 +1,5 @@
 //
-//  Cabriolet.cpp
+//  Coupe.cpp
 //  GestionVoitures
 //
 //  Created by Fabio SARMENTO PEDRO on 26/05/12.
@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "Cabriolet.hpp"
+#include "Coupe.hpp"
 
-Cabriolet::Cabriolet()
+Coupe::Coupe()
 {
     
 }
-Cabriolet::~Cabriolet()
+Coupe::~Coupe()
 {
     
 }

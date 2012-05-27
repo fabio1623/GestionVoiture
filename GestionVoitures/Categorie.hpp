@@ -29,12 +29,6 @@ class Categorie
     
     public :
     
-    Categorie()
-    {
-        
-    }
-    ~Categorie()
-    {
-        
-    }
+    Categorie(string nom, int longueurMinimale, int longueurMaximale, int hauteurMinimale, int hauteurMaximale, int nbPlaces);
+    ~Categorie();
 };

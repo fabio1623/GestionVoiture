@@ -25,14 +25,7 @@ class Berline:public Categorie
     
     public :
     
-    Berline()
-    {
-        
-    }
-    Berline()
-    {
-        
-    }
-    
+    Berline();
+    ~Berline();
 };
 

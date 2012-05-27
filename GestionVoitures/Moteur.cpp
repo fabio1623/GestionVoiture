@@ -7,3 +7,14 @@
 //
 
 #include <iostream>
+#include "Moteur.hpp"
+
+Moteur::Moteur(int reference, int puissance)
+{
+    this->reference = reference;
+    this->puissance = puissance;
+}
+Moteur::~Moteur()
+{
+    
+}

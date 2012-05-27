@@ -7,3 +7,14 @@
 //
 
 #include <iostream>
+#include "Marque.hpp"
+
+Marque::Marque(string nom, int anneeCreation)
+{
+    this->nom = nom;
+    this->anneeCreation = anneeCreation;
+}
+Marque::~Marque()
+{
+    
+}

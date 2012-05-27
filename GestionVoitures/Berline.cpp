@@ -1,5 +1,5 @@
 //
-//  Cabriolet.cpp
+//  Berline.cpp
 //  GestionVoitures
 //
 //  Created by Fabio SARMENTO PEDRO on 26/05/12.
@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "Cabriolet.hpp"
+#include "Berline.hpp"
 
-Cabriolet::Cabriolet()
+Berline::Berline()
 {
     
 }
-Cabriolet::~Cabriolet()
+Berline::~Berline()
 {
     
 }

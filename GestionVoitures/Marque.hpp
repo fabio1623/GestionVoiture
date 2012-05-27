@@ -25,12 +25,6 @@ class Marque
     
     public :
     
-    Marque()
-    {
-        
-    }
-    ~Marque()
-    {
-        
-    }
+    Marque(string nom, int anneeCreation);
+    ~Marque();
 };

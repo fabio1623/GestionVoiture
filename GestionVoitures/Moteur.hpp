@@ -25,12 +25,6 @@ class Moteur
     
     public :
     
-    Moteur()
-    {
-        
-    }
-    ~Moteur()
-    {
-        
-    }
+    Moteur(int reference, int puissance);
+    ~Moteur();
 };

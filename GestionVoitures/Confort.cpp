@@ -7,3 +7,16 @@
 //
 
 #include <iostream>
+#include "Confort.hpp"
+
+Confort::Confort(string libelle, string matiereFauteuils, bool ordinateurDeBord)
+{
+    this->libelle = libelle;
+    this->matiereFauteuils = matiereFauteuils;
+    this->ordinateurDeBord = ordinateurDeBord;
+}
+
+Confort::~Confort()
+{
+    
+}

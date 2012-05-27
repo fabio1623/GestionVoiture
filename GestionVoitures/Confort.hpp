@@ -26,12 +26,6 @@ class Confort
     
     public :
     
-    Confort()
-    {
-        
-    }
-    ~Confort()
-    {
-        
-    }
+    Confort(string libelle, string matiereFauteuils, bool ordinateurDeBord);
+    ~Confort();
 };

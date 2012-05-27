@@ -25,12 +25,6 @@ class Coupe:public Categorie
     
     public :
     
-    Coupe()
-    {
-        
-    }
-    Coupe()
-    {
-        
-    }
+    Coupe();
+    ~Coupe();
 };

@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#ifndef GestionVoitures_Voiture_h
-#define GestionVoitures_Voiture_h
+#ifndef GestionVoitures_Vehicule_h
+#define GestionVoitures_Vehicule_h
 
 #include <iostream>
 #include <string>
@@ -21,7 +21,7 @@ using namespace std;
 #endif
 
 
-class Voiture
+class Vehicule
 {
     private :
     
@@ -37,17 +37,6 @@ class Voiture
     
     public :
     
-    Voiture()
-    {
-
-    }
-    ~Voiture()
-    {
-        
-    }
-    
-    bool ajouterVoiture();
-    bool supprimerVoiture();
-    void afficherVoiture();
-    Voiture rechercherVoiture(); 
+    Vehicule(Marque marque, Categorie categorie, Confort confort, Moteur moteur, string nom, int poids, int vitesseMaximale, int acceleration, int prix);
+    ~Vehicule();
 };

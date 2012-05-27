@@ -25,12 +25,6 @@ class Cabriolet:public Categorie
     
     public :
     
-    Cabriolet()
-    {
-        
-    }
-    Cabriolet()
-    {
-        
-    }
+    Cabriolet();
+    ~Cabriolet();
 };
